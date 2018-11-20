@@ -6,6 +6,13 @@ browsers:
     desiredCapabilities:
       browserName: chrome
 
+system:
+  plugins:
+    'html-reporter/gemini':
+      enabled: true
+      path: 'reports/gemini'
+
+
 #compositeImage: true
 #sessionsPerBrowser: 2
 tolerance: 3.5
